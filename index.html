@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="bg-info">
+    <h2 class="text-dark mt-4" id="title">CALUCULATOR</h2>
+    <h6 class="text-danger" id="title">Rajesh Kavali</h6>
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" class="btn btn-outline-dark" id="result" /></td>
+            <!-- clr() function clear all values -->
+            <td><input type="button" class="btn btn-outline-warning" value="c" onclick="clr()" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="btn btn-outline-danger" value="1" onclick="dis('1')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="2" onclick="dis('2')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="3" onclick="dis('3')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="/" onclick="dis('/')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="btn btn-outline-danger" value="4" onclick="dis('4')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="5" onclick="dis('5')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="6" onclick="dis('6')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="-" onclick="dis('-')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="btn btn-outline-danger" value="7" onclick="dis('7')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="8" onclick="dis('8')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="9" onclick="dis('9')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="+" onclick="dis('+')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="btn btn-outline-danger" value="." onclick="dis('.')" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="0" onclick="dis('0')" /> </td>
+            <!-- (solve) will  caluculating the values -->
+            <td><input type="button" class="btn btn-outline-success" value="=" onclick="solve()" /> </td>
+            <td><input type="button" class="btn btn-outline-danger" value="*" onclick="dis('*')" /> </td>
+        </tr>
+    </table>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

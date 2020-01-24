@@ -1,0 +1,25 @@
+
+   #title{
+       text-align: center;
+       font-family: sans-serif;
+       margin-right: 11%;
+   }
+    table{
+        margin-top: 5%;
+        margin-left: 37%;
+        text-align: center;
+    }
+    input[type="button"] 
+    { 
+    background-color:rgb(217, 255, 0); 
+    color: black; 
+    border: solid black 1px; 
+    width:100%;
+    } 
+
+    input[type="text"] 
+    { 
+    background-color:white; 
+    border: solid black 1px; 
+    width:100% 
+    } 
